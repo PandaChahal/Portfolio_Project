@@ -411,6 +411,10 @@ article .icon {
   font-size: larger;
 }
 
+.phoneNumber-icon{
+  height: 32px;
+  width: 32px;
+}
 .contact-icon {
   cursor: default;
 }
