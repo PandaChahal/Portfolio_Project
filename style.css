@@ -243,14 +243,14 @@ section {
   color: white;
 }
 
-.btn-color-1:hover ,
-.btn-color-2:hover{
+.btn-color-1:hover,
+.btn-color-2:hover {
   background: rgb(0, 0, 0);
 }
 
 .btn-color-2 {
-  background: rgb(53,53,53);
-  color : white;
+  background: rgb(53, 53, 53);
+  color: white;
 }
 
 .btn-color-2:hover {
@@ -262,22 +262,23 @@ section {
 }
 
 /*about section*/
-#about{
+#about {
   position: relative;
 }
 
-.about-containers{
+.about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 3.5rem;
 }
 
-.about-detail-container{
+.about-detail-container {
   justify-content: center;
   flex-direction: column;
 }
 
-.about-containers,.about-detail-container{
+.about-containers,
+.about-detail-container {
   display: flex;
 }
 
@@ -285,29 +286,29 @@ section {
   border-radius: 2rem;
 } */
 
-.arrow{
+.arrow {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
 }
 
-.details-container{
+.details-container {
   padding: 1.5rem;
-  flex:1;
+  flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53,53,53) 0.1rem solid;
-  border-color: rgb(163,163,163);
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
   text-align: center;
 }
 
-.section-container{
+.section-container {
   gap: 4rem;
   height: 80%;
 }
 
-.section__pic-container{
-  height: 400px ;
+.section__pic-container {
+  height: 400px;
   width: 400px;
   margin: auto 0;
 }
@@ -376,7 +377,7 @@ article .icon {
 .project-btn {
   color: black;
   background-color: white;
-  border-color:black;
+  border-color: black;
 }
 
 /*contact section*/
@@ -411,7 +412,7 @@ article .icon {
   font-size: larger;
 }
 
-.phoneNumber-icon{
+.phoneNumber-icon {
   height: 32px;
   width: 32px;
 }
